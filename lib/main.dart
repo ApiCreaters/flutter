@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 
 import '1_add/UI/frist.dart';
 import '1_add/delete.dart';
+import '2/hero.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FristScreen()//MyHomePage()
+      home: HeroAnimation()//MyHomePage()
     );
   }
 }
