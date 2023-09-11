@@ -4,6 +4,8 @@ import 'package:get/get.dart';
 import '1_add/UI/frist.dart';
 import '1_add/delete.dart';
 import '2/hero.dart';
+import '3/Ui/intro.dart';
+import '3/delete.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HeroAnimation()//MyHomePage()
+      home: IntroScreen()//MyHomePage()
     );
   }
 }
